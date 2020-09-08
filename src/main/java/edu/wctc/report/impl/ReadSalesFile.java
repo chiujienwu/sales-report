@@ -15,7 +15,7 @@ public class ReadSalesFile implements SalesInput {
     @Override
     public List<Sale> getSales() {
 
-        String pathToCsv = "C:\\Users\\jerry\\Downloads\\sales-report\\src\\main\\java\\edu\\wctc\\report\\sales.txt";
+        String pathToCsv = "sales.txt";
         // pass the path to the file as a parameter
 //        File file = new File(pathToCsv);
 //        if (file.isFile()){
